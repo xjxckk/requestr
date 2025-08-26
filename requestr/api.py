@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 def parse_response(response):
     content_type = response.headers.get('Content-Type', '')
-    print('Content-Type header:', content_type)
+    # print('Content-Type header:', content_type)
 
     if 'application/json' in content_type:
         try:

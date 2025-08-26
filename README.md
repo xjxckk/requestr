@@ -9,7 +9,7 @@ import requestr
 
 url = 'https://jsonplaceholder.typicode.com/posts/1'
 
-response = requests.get(url)
+response = requestr.get(url)
 >>> response.data
 {
   'userId': 1,
@@ -26,7 +26,7 @@ import requestr
 
 url = 'https://example.com'
 
-response = requests.get(url)
+response = requestr.get(url)
 
 h1_tag = response.soup.select_one('h1')
 >>> h1_tag.text
