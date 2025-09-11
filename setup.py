@@ -3,8 +3,8 @@ from setuptools import setup
 setup(
     name = 'python-requestr',
     packages = ['requestr',],
-    install_requires=['python-objectifier', 'beautifulsoup4'],
-    version = '0.11',
+    install_requires=['python-objectifier', 'beautifulsoup4', 'requests-futures'],
+    version = '0.13',
     description = 'requestr',
     url = 'https://github.com/xjxckk/python-requestr/',
     download_url = 'https://github.com/xjxckk/python-requestr/archive/refs/tags/v0.1.tar.gz',
