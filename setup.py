@@ -4,7 +4,7 @@ setup(
     name = 'python_requestr',
     packages = ['requestr',],
     install_requires=['requests', 'python-objectifier', 'beautifulsoup4', 'requests-futures'],
-    version = '0.15',
+    version = '0.16',
     description = 'requestr',
     url = 'https://github.com/xjxckk/python-requestr/',
     long_description=open('README.md').read(),
