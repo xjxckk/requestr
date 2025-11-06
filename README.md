@@ -2,7 +2,7 @@
 A wrapper library for requests, optimised for JSON and HTML
 
 Installation:
-`pip install requestr`
+`pip install python-requestr`
 
 ```
 import requestr
