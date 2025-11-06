@@ -9,10 +9,10 @@ def parse_response(response):
     if 'application/json' in content_type:
         try:
             response.data = convert_json_to_object(response.text)
-            response.json = response.data
+            # response.json = response.data
         except requests.JSONDecodeError:
             response.data = None
-            response.json = None
+            # response.json = None
     elif 'text/html' in content_type:
         response.soup = BeautifulSoup(response.content, 'html.parser')
         response.html = response.soup
